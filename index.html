@@ -14,6 +14,10 @@
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="./css/main.css" />
+	<!-- Owl Carousel2 -->
+	<link rel="stylesheet" href="./libs/OwlCarousel2/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="./libs/OwlCarousel2/assets/owl.theme.default.min.css">
+
 
 	<!-- Open Graph -->
 	<!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
@@ -95,9 +99,39 @@
 					</div>
 				</a>
 			</div>
-			<div class="products__slider">
-				<h2 class="title products__title">ТОП ПРОДАЖ</h2>
-				<div class="slider">
+		</div>
+		<div class="products__slider">
+			<h2 class="title products__title">ТОП ПРОДАЖ</h2>
+			<div class="slider__container">
+				<div class="slider owl-carousel owl-theme" id="products-slider">
+					<div class="slider__item">
+						<div class="slider__image">
+							<img src="./img/slider/01.png" alt="item">
+						</div>
+						<div class="slider__description">
+							<span class="slider__title">Полотенце с шелком для лица и шеи</span>
+							<span class="slider__price">830 UAH</span>
+						</div>
+					</div>
+					<div class="slider__item">
+						<div class="slider__image">
+							<img src="./img/slider/02.png" alt="item">
+						</div>
+						<div class="slider__description">
+							<span class="slider__title">Объемная шелковая резинка для волос</span>
+							<span class="slider__price">330 UAH</span>
+						</div>
+					</div>
+					<div class="slider__item">
+						<span class="slider__note">запатентовано</span>
+						<div class="slider__image">
+							<img src="./img/slider/03.png" alt="item">
+						</div>
+						<div class="slider__description">
+							<span class="slider__title">Полотенце-тюрбан с шелком для волос</span>
+							<span class="slider__price">990 UAH</span>
+						</div>
+					</div>
 					<div class="slider__item">
 						<div class="slider__image">
 							<img src="./img/slider/01.png" alt="item">
@@ -127,6 +161,8 @@
 						</div>
 					</div>
 				</div>
+				<div class="slider__prev" id="sliderPrev"></div>
+				<div class="slider__next" id="sliderNext"></div>
 			</div>
 		</div>
 	</section>
@@ -150,6 +186,10 @@
 
 	<footer class="footer">
 	</footer>
+
+	<script src="./libs/jquery-3.6.0.slim.min.js"></script>
+	<script src="./libs/OwlCarousel2/owl.carousel.min.js"></script>
+	<script src="./js/main.js"></script>
 
 </body>
 
