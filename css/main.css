@@ -105,7 +105,7 @@ body {
 
 @font-face {
   font-family: 'Champagne-&-Limousines-Regular';
-  src: url(../../fonts/Champagne-&-Limousines.woff) format("woff");
+  src: local("Champagne-&-Limousines-Regular"), url(../fonts/Champagne-&-Limousines.woff) format("woff");
 }
 .logo {
   display: block;
