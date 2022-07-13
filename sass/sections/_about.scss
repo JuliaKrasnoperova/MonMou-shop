@@ -1,0 +1,45 @@
+.about {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about__title {
+    margin-bottom: 67px;
+}
+
+.about__wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.about__image {
+    width: 785px;
+}
+
+.about__image img {
+    width: 100%;
+
+}
+
+.about__text img {
+    max-width: 376px;
+    margin-bottom: 60px;
+}
+
+.about__text p {
+    max-width: 482px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 133px;
+    margin-bottom: 120px;
+
+}
+
+.about__text p:last-child {
+    margin-bottom: 0;
+}

@@ -182,8 +182,8 @@ body {
 
 .slider__prev {
   position: absolute;
-  top: 43%;
-  left: 21px;
+  top: 41%;
+  left: 30px;
   background-image: url(../img/slider/prev.svg);
   background-repeat: no-repeat;
   width: 40px;
@@ -193,8 +193,8 @@ body {
 
 .slider__next {
   position: absolute;
-  top: 43%;
-  right: 21px;
+  top: 41%;
+  right: -1px;
   background-image: url(../img/slider/next.svg);
   background-repeat: no-repeat;
   width: 40px;
@@ -389,6 +389,216 @@ body {
 
 .products__title {
   margin-bottom: 36px;
+}
+
+.subscription {
+  padding-top: 77px;
+  padding-bottom: 77px;
+  background: #EFD2C2;
+}
+
+.subscription__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 256px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscription__text {
+  max-width: 564px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 1.28px;
+}
+
+.subscription__button {
+  padding: 11px 64px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 1.28px;
+  color: #2D3538;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+.about {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about__title {
+  margin-bottom: 67px;
+}
+
+.about__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.about__image {
+  width: 785px;
+}
+
+.about__image img {
+  width: 100%;
+}
+
+.about__text img {
+  max-width: 376px;
+  margin-bottom: 60px;
+}
+
+.about__text p {
+  max-width: 482px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-left: 133px;
+  margin-bottom: 120px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}
+
+.socials {
+  max-width: 1577px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.social__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 74px;
+}
+
+.socials__icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 18px;
+  -webkit-column-gap: 18px;
+          column-gap: 18px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.socials__icon {
+  cursor: pointer;
+  max-width: 301px;
+}
+
+.socials__icon:hover .socials__image img {
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  opacity: 0.3;
+}
+
+.socials__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #2D3538;
+}
+
+.socials__img-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.socials__icon:hover .socials__img-wrapper {
+  opacity: 1;
+}
+
+.socials__icon:hover .socials__img-wrapper img {
+  opacity: 1;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.socials__img img {
+  width: 32px;
+  height: 32px;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer__list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.12;
+  text-transform: uppercase;
+  color: #2D3538;
+}
+
+.footer__item + .footer__item {
+  margin-top: 30px;
+}
+
+.footer__item a {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.footer__item a:hover {
+  color: #EFD2C2;
+}
+
+.footer__payment {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__icons img {
+  max-width: 80px;
 }
 
 /*# sourceMappingURL=main.css.map */

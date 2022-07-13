@@ -1,0 +1,46 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    text-transform: uppercase;
+    color: #2D3538;
+
+}
+
+.footer__item+.footer__item {
+    margin-top: 30px;
+}
+
+.footer__item a {
+    transition: 0.2s;
+
+    &:hover {
+        color: $powdery;
+    }
+}
+
+.footer__payment {
+    align-self: center;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.footer__icons img {
+    max-width: 80px;
+}
