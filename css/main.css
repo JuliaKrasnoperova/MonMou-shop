@@ -494,6 +494,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   row-gap: 18px;
   -webkit-column-gap: 18px;
           column-gap: 18px;
