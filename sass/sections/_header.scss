@@ -55,11 +55,27 @@
 
 .header__banner {
     background-image: url(./../img/Header/banner.png);
-    max-width: 1600px;
+    height: 825px;
     margin: 0 auto;
+    background-position: center;
     background-size: cover;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        height: 600px;
+    }
+
+}
+
+.header__banner-wrapper {
     padding-top: 230px;
     padding-bottom: 306px;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
 
 .header__title {

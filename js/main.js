@@ -5,11 +5,17 @@ $(document).ready(function () {
     // Запускаем карусель
     owl.owlCarousel({
         items: 3,
-        autoplay: true,
+        //autoplay: true,
         speed: 900,
         autoplaySpeed: 1000,
         loop: true,
-        dots: false
+        dots: false,
+        // responsive: {
+        900: {
+            items: 2,
+
+        }
+
     });
 
     // Находим кастомные кнопки Вперед / Назад

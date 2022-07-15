@@ -13,4 +13,19 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        width: 900px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 600px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        width: 320px;
+    }
 }
