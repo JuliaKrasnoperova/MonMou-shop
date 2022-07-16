@@ -1225,7 +1225,7 @@ body {
   /*Mobile XS media */
 }
 .contacts__list a:hover {
-  color: #EFD2C2;
+  color: #000;
 }
 @media (max-width: 599px) {
   .contacts__list a {
@@ -1393,6 +1393,30 @@ body {
   width: 26px;
   height: 1px;
   background: #e0aa99;
+}
+
+.collaboration {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.collaboration__text {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 50px;
+  /*Mobile media */
+  /*Mobile XS media */
+}
+@media (max-width: 899px) {
+  .collaboration__text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 599px) {
+  .collaboration__text {
+    font-size: 16px;
+  }
 }
 
 .footer {
