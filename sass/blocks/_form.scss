@@ -13,6 +13,11 @@
     font-size: 25px;
     margin-bottom: 15px;
 
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 18px;
+    }
+
 }
 
 .form__group-input {
@@ -26,6 +31,11 @@
     width: 100%;
     margin-bottom: 15px;
     font-style: italic;
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 15px;
+    }
 }
 
 .form__group-textarea {
