@@ -9,6 +9,14 @@
 
         /*Mobile XS media */
         @media (max-width: 599px) {
+            font-size: 30px;
+        }
+    }
+
+    &--minmobile {
+
+        /*Mobile XS media */
+        @media (max-width: 599px) {
             font-size: 13px;
         }
     }

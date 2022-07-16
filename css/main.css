@@ -176,6 +176,14 @@ body {
 }
 @media (max-width: 599px) {
   .title--mobile {
+    font-size: 30px;
+  }
+}
+.title--minmobile {
+  /*Mobile XS media */
+}
+@media (max-width: 599px) {
+  .title--minmobile {
     font-size: 13px;
   }
 }
@@ -1188,6 +1196,18 @@ body {
 
 .contacts__list li {
   margin-bottom: 50px;
+  /*Mobile media */
+  /*Mobile XS media */
+}
+@media (max-width: 899px) {
+  .contacts__list li {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 599px) {
+  .contacts__list li {
+    margin-bottom: 20px;
+  }
 }
 
 .contacts__list li:last-child {
@@ -1209,7 +1229,7 @@ body {
 }
 @media (max-width: 599px) {
   .contacts__list a {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -1222,6 +1242,12 @@ body {
   background-image: url(../../img/contacts/map-pin.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  /*Mobile XS media */
+}
+@media (max-width: 599px) {
+  .contacts__list-location::before {
+    margin-right: 10px;
+  }
 }
 
 .contacts__list-phone::before {
@@ -1233,6 +1259,12 @@ body {
   background-image: url(../../img/contacts/tel.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  /*Mobile XS media */
+}
+@media (max-width: 599px) {
+  .contacts__list-phone::before {
+    margin-right: 10px;
+  }
 }
 
 .contacts__list-email::before {
@@ -1244,6 +1276,12 @@ body {
   background-image: url(../../img/contacts/mail.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  /*Mobile XS media */
+}
+@media (max-width: 599px) {
+  .contacts__list-email::before {
+    margin-right: 10px;
+  }
 }
 
 .footer {
