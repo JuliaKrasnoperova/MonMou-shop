@@ -1,0 +1,27 @@
+.button {
+    display: inline-block;
+    padding: 18px 28px;
+    margin-top: 50px;
+
+    font-size: 20px;
+    line-height: 0.86;
+    color: #000000;
+    border: 1px solid #EFD2C2;
+    background: #EFD2C2;
+    transition: 0.2s;
+
+    &:hover {
+        background: #EFD2C2;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        padding: 8px 7px;
+        font-size: 11px;
+        color: $powdery;
+        background: #2D3538;
+        border: none;
+
+    }
+
+}

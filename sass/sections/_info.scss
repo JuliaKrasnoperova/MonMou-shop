@@ -5,6 +5,23 @@
     padding-top: 100px;
     padding-bottom: 100px;
 
+    /* Tablet */
+    @media (max-width: 1199px) {
+        width: 900px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 600px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
 }
 
 .info__row {
@@ -12,32 +29,108 @@
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 100px;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        row-gap: 0;
+    }
+
 }
 
 
 
 .info__image {
     max-width: 785px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        width: 100%;
+    }
 }
+
 
 .info__text {
     max-width: 737px;
     background: #FFFFFF;
     padding: 61px 30px;
+    z-index: 9;
+
+}
+
+.info__row-odd .info__text {
     margin-left: -100px;
     margin-top: 90px;
     z-index: 9;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        margin-left: 100px;
+        margin-top: -300px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 500px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        width: 100%;
+        margin-top: -100px;
+    }
+
 }
 
-.info__text-even {
-    margin-right: -100px;
+.info__row .info__row-even {
+    flex-direction: row-reverse;
 }
+
+.info__row-even .info__text {
+    margin-right: -100px;
+    margin-top: 90px;
+    z-index: 9;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        margin-left: 100px;
+        margin-top: -300px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 500px;
+        margin-left: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+}
+
+
 
 .info__text p {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
     text-align: justify;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 16px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 14px;
+    }
 }
 
 .info__text p:not(last-child) {
