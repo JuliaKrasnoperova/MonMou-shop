@@ -6,7 +6,11 @@
     color: #000000;
 
     &--mobile {
-        font-size: 13px;
+
+        /*Mobile XS media */
+        @media (max-width: 599px) {
+            font-size: 13px;
+        }
     }
 
 }
