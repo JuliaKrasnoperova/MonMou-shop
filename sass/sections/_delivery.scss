@@ -1,0 +1,25 @@
+.delivery {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.delivery__text p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 16px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 14px;
+    }
+}
+
+.delivery__text p:last-child {
+    margin-bottom: 0;
+}
