@@ -14,10 +14,16 @@
     display: flex;
     gap: 45px;
     align-items: center;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        display: none;
+    }
 }
 
 .header__list a {
     transition: 0.2s;
+    color: #000;
 
     &:hover {
         color: $powdery;
@@ -40,6 +46,11 @@
 
     &:hover {
         color: #e2c0ad;
+    }
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        display: none;
     }
 }
 
@@ -65,6 +76,18 @@
         height: 600px;
     }
 
+    /*Mobile media */
+    @media (max-width: 899px) {
+        height: 500px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        background-image: url(./../img/Header/banner-mobile.png);
+        height: 100%;
+
+    }
+
 }
 
 .header__banner-wrapper {
@@ -76,6 +99,13 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        padding-top: 245px;
+        padding-bottom: 41px;
+        text-align: center;
+    }
 }
 
 .header__title {
@@ -85,6 +115,19 @@
     text-transform: uppercase;
     margin-bottom: 50px;
 
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 45px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 35px;
+        line-height: 40px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
 }
 
 .header__subtitle {
@@ -92,6 +135,18 @@
     line-height: 33px;
     color: #000000;
     max-width: 473px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 25px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 13px;
+        text-align: center;
+        color: #fff;
+    }
 }
 
 .header__button {
@@ -110,7 +165,18 @@
         background: #EFD2C2;
     }
 
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        padding: 8px 7px;
+        font-size: 11px;
+        color: $powdery;
+        background: #2D3538;
+        border: none;
+
+    }
+
 }
+
 
 .header__offer {
     max-width: 1600px;
@@ -123,4 +189,22 @@
     line-height: 0.86;
     color: $powdery;
     text-align: center;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 30px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 25px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 15px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+
+    }
 }

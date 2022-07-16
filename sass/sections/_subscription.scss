@@ -8,6 +8,18 @@
     display: flex;
     gap: 256px;
     align-items: center;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        gap: 150px;
+    }
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        flex-direction: column;
+        gap: 50px;
+    }
+
 }
 
 .subscription__text {
@@ -16,6 +28,16 @@
     font-size: 36px;
     line-height: 1.5;
     letter-spacing: 1.28px;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        font-size: 30px;
+    }
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        text-align: center;
+    }
 
 }
 

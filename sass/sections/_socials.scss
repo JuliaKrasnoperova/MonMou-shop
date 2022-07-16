@@ -4,6 +4,12 @@
     margin-right: auto;
     padding-top: 100px;
     padding-bottom: 100px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 .social__title {
@@ -11,6 +17,12 @@
     gap: 30px;
     justify-content: center;
     margin-bottom: 74px;
+    flex-wrap: wrap;
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        justify-content: space-around;
+    }
 }
 
 .socials__icon-wrapper {
@@ -27,6 +39,14 @@
     max-width: 301px;
 }
 
+.socials__icon-none {
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        display: none;
+    }
+}
+
 .socials__icon:hover .socials__icon-image img {
     filter: blur(1px);
     opacity: 0.3;
@@ -37,6 +57,7 @@
     width: 100%;
     height: 100%;
     background: #2D3538;
+    display: flex;
 }
 
 .socials__icon-img-wrapper {

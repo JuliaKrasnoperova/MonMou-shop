@@ -1,10 +1,15 @@
 .logo {
     display: block;
     background-image: url(./../img/Header/logo.png);
-    max-width: 229px;
-    width: 100%;
+    width: 229px;
     height: 56px;
     background-repeat: no-repeat;
     background-size: cover;
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        width: 118px;
+        height: 29px;
+    }
 
 }

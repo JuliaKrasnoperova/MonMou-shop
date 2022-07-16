@@ -10,9 +10,16 @@ $(document).ready(function () {
         autoplaySpeed: 1000,
         loop: true,
         dots: false,
-        // responsive: {
-        900: {
-            items: 2,
+        responsive: {
+            320: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            900: {
+                items: 3
+            },
 
         }
 
