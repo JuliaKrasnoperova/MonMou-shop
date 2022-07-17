@@ -1,6 +1,16 @@
 .product {
     padding-top: 40px;
     padding-bottom: 150px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        padding-bottom: 80px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        padding-bottom: 40px;
+    }
 }
 
 .product__links {
@@ -11,6 +21,11 @@
     padding-left: 180px;
     font-weight: 400;
     text-transform: uppercase;
+
+    @media (max-width: 899px) {
+        padding-left: 100px;
+        margin-bottom: 50px;
+    }
 }
 
 .product__links a {
@@ -22,11 +37,30 @@
     &:hover {
         color: $powdery;
     }
+
+    @media (max-width: 899px) {
+        margin-bottom: 20px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        margin-bottom: 10px;
+    }
 }
 
 .product__links-main {
     position: relative;
     font-size: 20px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 16px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 14px;
+    }
 }
 
 .product__links-main::before {
@@ -38,11 +72,26 @@
     height: 5px;
     background: $powdery;
 
+    /*Mobile media */
+    @media (max-width: 899px) {
+        width: 90px;
+    }
+
 }
 
 .product__links-other {
     position: relative;
     font-size: 16px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 14px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 12px;
+    }
 
 }
 
@@ -54,17 +103,37 @@
     width: 60px;
     height: 5px;
     background: $powdery;
+
+    @media (max-width: 899px) {
+        width: 60px;
+    }
 }
 
 .product__wrapper {
     display: flex;
     justify-content: center;
     gap: 20px;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
 }
 
 .product__image {
     width: 585px;
     min-height: 429px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        width: 100%;
+    }
+
+    @media(max-width:340px) {
+        height: 45vh;
+    }
 
 }
 
@@ -78,6 +147,20 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+
+    @media (max-width: 899px) {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+.product__description-mobile {
+    display: none;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        display: block;
+    }
 }
 
 .product__description-title {
@@ -87,6 +170,11 @@
     color: #000000;
     margin-bottom: 15px;
 
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 15px;
+    }
+
 }
 
 .product__description-price {
@@ -94,6 +182,12 @@
     font-size: 25px;
     line-height: 1.16;
     color: #000000;
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 18px;
+
+    }
 }
 
 .product__second-column {
@@ -102,26 +196,48 @@
     flex-direction: column;
     gap: 20px;
 
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        gap: 0;
+    }
+
 }
 
 .product__icon-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        justify-content: center;
+    }
 }
 
-.product__icon {}
+
 
 .product__icon-image {
     min-width: 585px;
     margin-bottom: 30px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        min-width: 100%;
+        width: 100%;
+    }
 }
 
 .product__icon-image img {
     width: 100%;
 }
 
-.product__text {}
+.product__text {
+
+    /*Tablet media */
+    @media (max-width: 1199px) {
+        text-align: center;
+    }
+}
 
 .product__text-title {
     display: block;
@@ -132,6 +248,18 @@
     text-transform: uppercase;
     color: #000000;
     margin-bottom: 10px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 16px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 15px;
+    }
+
+
 }
 
 .product__text-price {
@@ -139,5 +267,16 @@
     font-size: 25px;
     line-height: 1.16;
     color: #000000;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        font-size: 18px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 16px;
+    }
+
 
 }
