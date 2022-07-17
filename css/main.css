@@ -1528,6 +1528,44 @@ body {
   gap: 20px;
 }
 
+.product__icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product__icon-image {
+  min-width: 585px;
+  margin-bottom: 30px;
+}
+
+.product__icon-image img {
+  width: 100%;
+}
+
+.product__text-title {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.product__text-price {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.16;
+  color: #000000;
+}
+
 .footer {
   margin-top: auto;
   padding-top: 100px;
