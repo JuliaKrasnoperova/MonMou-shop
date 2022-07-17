@@ -1,6 +1,18 @@
 .shop {
     padding-top: 100px;
     padding-bottom: 100px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
 
 
@@ -21,6 +33,11 @@
 .shop__item-image {
     width: 380px;
     margin-bottom: 20px;
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        width: 100%;
+    }
 }
 
 .shop__item-image img {
@@ -39,6 +56,11 @@
     letter-spacing: 0.32px;
     color: #000000;
     margin-bottom: 20px;
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 16px;
+    }
 }
 
 .shop__item-price {
@@ -47,7 +69,13 @@
     font-size: 25px;
     line-height: 1.16;
     color: #000000;
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        font-size: 20px;
+    }
 }
+
 
 .shop__item-button .button {
     width: 100%;
