@@ -38,3 +38,11 @@ $(document).ready(function () {
         owl.trigger('next.owl.carousel')
     });
 });
+
+
+// Preloader
+
+window.onload = function () {
+    let preloader = document.getElementById('preloader');
+    preloader.style.display = 'none';
+};
