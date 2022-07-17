@@ -37,24 +37,6 @@
 
 }
 
-.slider__item-note {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 10px;
-    line-height: 1.2;
-    letter-spacing: 1.12px;
-    text-transform: uppercase;
-    color: $powdery;
-    background: #2D3538;
-
-    padding: 10px 37px;
-
-    /*Mobile XS media */
-    @media (max-width: 599px) {
-        padding: 4px 15px;
-    }
-}
 
 .slider__item-title {
     display: block;
