@@ -4,12 +4,15 @@
     margin-right: auto;
 
     padding-top: 100px;
-    padding-bottom: 100px;
 
     /*Mobile media */
     @media (max-width: 899px) {
         padding-top: 50px;
-        padding-bottom: 50px;
+    }
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        padding-top: 25px;
     }
 }
 
