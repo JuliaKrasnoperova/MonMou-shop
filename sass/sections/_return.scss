@@ -15,6 +15,11 @@
 .return__title {
     display: flex;
     margin-bottom: 50px;
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        margin-bottom: 25px;
+    }
 }
 
 .return__text {

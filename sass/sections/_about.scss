@@ -18,6 +18,11 @@
 
 .about__title {
     margin-bottom: 67px;
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        margin-bottom: 25px;
+    }
 }
 
 .about__wrapper {

@@ -1,0 +1,15 @@
+.tel {
+    color: $powdery;
+    font-size: 18px;
+    line-height: 0.85;
+    transition: 0.2s;
+
+    &:hover {
+        color: #e2c0ad;
+    }
+
+    /*Mobile media */
+    @media (max-width: 899px) {
+        display: none;
+    }
+}

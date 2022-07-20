@@ -29,6 +29,11 @@
     flex-direction: column;
     justify-content: flex-end;
 
+    /*Mobile media */
+    @media (max-width: 899px) {
+        width: 100%;
+    }
+
 }
 
 .shop__item-image {

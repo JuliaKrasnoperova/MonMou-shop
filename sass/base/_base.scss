@@ -8,6 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Champagne-&-Limousines-Regular';
+
+    &._locked {
+        overflow: hidden;
+    }
 }
 
 .container {
