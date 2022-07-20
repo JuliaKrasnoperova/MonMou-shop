@@ -585,7 +585,7 @@ body._locked {
 .nav-icon {
   width: 30px;
   height: 25px;
-  z-index: 9999999;
+  z-index: 999;
   display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1856,18 +1856,18 @@ body._locked {
 
 .product {
   padding-top: 40px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   /*Mobile media */
   /*Mobile XS media */
 }
 @media (max-width: 899px) {
   .product {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 599px) {
   .product {
-    padding-bottom: 40px;
+    padding-bottom: 25px;
   }
 }
 
@@ -1887,6 +1887,10 @@ body._locked {
   }
 }
 
+/*Mobile XS media */
+@media (max-width: 599px) {
+  margin-bottom: 25px;
+}
 .product__links a {
   display: block;
   color: #000;
