@@ -71,3 +71,31 @@ navLinks.forEach(function (item) {
         nav.classList.remove('nav--active'); // Убираем активный класс у блока моб. навигации
     })
 })
+
+// pop-up
+
+let popupBg = document.querySelector('.popup__bg');
+let popup = document.querySelector('.popup');
+let openPopupButtons = document.querySelectorAll('#popup__open');
+let closePopupButton = document.querySelector('.popup__close');
+
+
+openPopupButtons.forEach((button) => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        popupBg.classList.add('active');
+        popup.classList.add('popup__active');
+        body.classList.add('_locked');
+    })
+});
+closePopupButton.addEventListener('click', () => {
+    popupBg.classList.remove('active');
+    popup.classList.remove('popup__active');
+    body.classList.remove('_locked');
+});
+document.addEventListener('click', (e) => {
+    if (e.target === popupBg) {
+        popupBg.classList.remove('active');
+        popup.classList.remove('popup__active');
+    }
+});
