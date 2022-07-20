@@ -2501,6 +2501,7 @@ body._locked {
   padding: 40px 20px;
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
+  /*Mobile XS media */
 }
 .popup__header {
   text-align: center;
@@ -2568,6 +2569,11 @@ body._locked {
   top: 14px;
   right: 16px;
   cursor: pointer;
+}
+@media (max-width: 599px) {
+  .popup {
+    width: 320px;
+  }
 }
 
 .popup__bg {

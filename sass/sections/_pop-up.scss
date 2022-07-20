@@ -70,6 +70,12 @@
         right: 16px;
         cursor: pointer;
     }
+
+
+    /*Mobile XS media */
+    @media (max-width: 599px) {
+        width: 320px;
+    }
 }
 
 .popup__bg {
