@@ -169,7 +169,7 @@
                 <div class="subscription__text">
                     <p>Подпишись на нашу рассылку и узнавай первой про шелковые новинки</p>
                 </div>
-                <a class="subscription__button">Подписаться</a>
+                <button type="submit" id="popup__open" class="subscription__button">Подписаться</button>
             </div>
         </div>
     </section>
@@ -340,6 +340,17 @@
                 </div>
             </div>
     </footer>
+    <div class="popup__bg">
+        <div class="popup">
+            <img src="./img/pop-up/close.svg" alt="close" class="popup__close">
+            <h2 class="popup__header">Получай наши лучшие предложения</h2>
+            <div class="popup__text">Напишите ваш email<br>и узнавайте о лучших предложениях каждую неделю</div>
+            <form class="subscription__form popup__form">
+                <input class="subscription__input popup__input" type="email" placeholder="Введите свой email">
+                <button class="popup__button" type="submit">Подписаться</button>
+            </form>
+        </div>
+    </div>
 
     <script src="./libs/jquery-3.6.0.slim.min.js"></script>
     <script src="./libs/OwlCarousel2/owl.carousel.min.js"></script>

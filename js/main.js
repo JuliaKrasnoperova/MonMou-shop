@@ -72,6 +72,8 @@ navLinks.forEach(function (item) {
     })
 })
 
+
+
 // pop-up
 
 let popupBg = document.querySelector('.popup__bg');
