@@ -133,17 +133,17 @@ body._locked {
 }
 @media (max-width: 1199px) {
   .container {
-    width: 900px;
+    max-width: 900px;
   }
 }
 @media (max-width: 899px) {
   .container {
-    width: 600px;
+    max-width: 600px;
   }
 }
 @media (max-width: 599px) {
   .container {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
