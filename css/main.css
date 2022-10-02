@@ -196,6 +196,7 @@ body._locked {
 }
 
 .slider__container {
+  max-width: 1200px;
   padding-right: 50px;
   padding-left: 50px;
   position: relative;
